@@ -510,92 +510,15 @@ body.lang-ko [data-en]{display:none!important}
       </div>
     </div>
     <div>
-      <!-- 회사 전경 SVG 일러스트 -->
+      <!-- 회사 전경 실제 사진 -->
       <div class="company-photo">
-        <div class="company-photo-inner">
-          <svg viewBox="0 0 600 375" width="100%" height="375" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <linearGradient id="skyG" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0%" stop-color="#1a6aaa"/><stop offset="45%" stop-color="#5ba3d9"/>
-                <stop offset="65%" stop-color="#87ceeb"/><stop offset="100%" stop-color="#a8d8ea"/>
-              </linearGradient>
-              <linearGradient id="officeG" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0%" stop-color="#cdd8e5"/><stop offset="100%" stop-color="#8a9ab5"/>
-              </linearGradient>
-              <linearGradient id="factoryG" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0%" stop-color="#3d4e62"/><stop offset="100%" stop-color="#1e2d3e"/>
-              </linearGradient>
-              <linearGradient id="groundG" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0%" stop-color="#c04000"/><stop offset="100%" stop-color="#a03500"/>
-              </linearGradient>
-            </defs>
-            <!-- Sky -->
-            <rect width="600" height="375" fill="url(#skyG)"/>
-            <!-- Ground/parking -->
-            <rect y="295" width="600" height="80" fill="url(#groundG)"/>
-            <!-- Parking lines -->
-            <line x1="80" y1="300" x2="80" y2="370" stroke="white" stroke-width="1.5" opacity=".5"/>
-            <line x1="140" y1="300" x2="140" y2="370" stroke="white" stroke-width="1.5" opacity=".5"/>
-            <line x1="200" y1="300" x2="200" y2="370" stroke="white" stroke-width="1.5" opacity=".5"/>
-            <line x1="350" y1="300" x2="350" y2="370" stroke="white" stroke-width="1.5" opacity=".5"/>
-            <line x1="420" y1="300" x2="420" y2="370" stroke="white" stroke-width="1.5" opacity=".5"/>
-            <!-- Parked cars (silhouettes) -->
-            <rect x="85" y="310" width="48" height="22" rx="5" fill="#1a2a3a" opacity=".8"/>
-            <rect x="145" y="313" width="44" height="19" rx="4" fill="#2a3a4a" opacity=".7"/>
-            <rect x="355" y="308" width="52" height="24" rx="5" fill="#1a2a3a" opacity=".8"/>
-            <rect x="425" y="311" width="46" height="20" rx="4" fill="#2a3545" opacity=".7"/>
-            <!-- Office building (left - glass) -->
-            <rect x="15" y="100" width="195" height="198" fill="url(#officeG)" rx="3"/>
-            <!-- Glass windows grid on office -->
-            <rect x="15" y="100" width="195" height="198" fill="none" stroke="#b0bcc8" stroke-width="1"/>
-            <!-- Horizontal window rows -->
-            <rect x="25" y="115" width="60" height="40" fill="#3a6fa0" opacity=".7" rx="2"/>
-            <rect x="95" y="115" width="60" height="40" fill="#3a6fa0" opacity=".7" rx="2"/>
-            <rect x="140" y="115" width="60" height="40" fill="#3a6fa0" opacity=".65" rx="2"/>
-            <rect x="25" y="165" width="60" height="40" fill="#3a6fa0" opacity=".65" rx="2"/>
-            <rect x="95" y="165" width="60" height="40" fill="#2a5f90" opacity=".7" rx="2"/>
-            <rect x="140" y="165" width="60" height="40" fill="#3a6fa0" opacity=".6" rx="2"/>
-            <rect x="25" y="215" width="60" height="35" fill="#2a5f90" opacity=".6" rx="2"/>
-            <rect x="95" y="215" width="60" height="35" fill="#3a6fa0" opacity=".55" rx="2"/>
-            <rect x="140" y="215" width="60" height="35" fill="#2a5f90" opacity=".6" rx="2"/>
-            <!-- AMSTEEL sign on office -->
-            <rect x="22" y="102" width="80" height="22" rx="2" fill="#07122a"/>
-            <text x="62" y="117" font-size="10" fill="#38bdf8" text-anchor="middle" font-family="sans-serif" font-weight="800">AMSTEEL</text>
-            <text x="62" y="126" font-size="6" fill="rgba(56,189,248,.6)" text-anchor="middle" font-family="sans-serif" letter-spacing="1">ADV. MATERIAL</text>
-            <!-- Factory building (right - large) -->
-            <rect x="218" y="60" width="368" height="238" fill="url(#factoryG)" rx="3"/>
-            <!-- Factory roof detail -->
-            <rect x="218" y="60" width="368" height="15" fill="#4a5c70" rx="3"/>
-            <!-- Factory windows (upper row) -->
-            <rect x="235" y="88" width="50" height="30" fill="#3a5070" opacity=".6" rx="2"/>
-            <rect x="300" y="88" width="50" height="30" fill="#3a5070" opacity=".5" rx="2"/>
-            <rect x="365" y="88" width="50" height="30" fill="#3a5070" opacity=".6" rx="2"/>
-            <rect x="430" y="88" width="50" height="30" fill="#3a5070" opacity=".55" rx="2"/>
-            <rect x="500" y="88" width="75" height="30" fill="#3a5070" opacity=".5" rx="2"/>
-            <!-- AMSTEEL factory signage (big) -->
-            <rect x="225" y="132" width="355" height="34" fill="rgba(5,12,25,.4)"/>
-            <text x="402" y="154" font-size="22" fill="white" text-anchor="middle" font-family="sans-serif" font-weight="900" letter-spacing="3">AMSTEEL</text>
-            <text x="402" y="167" font-size="10" fill="rgba(255,255,255,.6)" text-anchor="middle" font-family="sans-serif" letter-spacing="2">에이엠스틸 ㈜</text>
-            <!-- Gate openings -->
-            <rect x="280" y="220" width="65" height="78" fill="#0a0e14" rx="3"/>
-            <rect x="370" y="220" width="65" height="78" fill="#0a0e14" rx="3"/>
-            <text x="313" y="260" font-size="9" fill="rgba(255,255,255,.4)" text-anchor="middle" font-family="sans-serif">GATE 1</text>
-            <text x="403" y="260" font-size="9" fill="rgba(255,255,255,.4)" text-anchor="middle" font-family="sans-serif">GATE 2</text>
-            <!-- Cooling unit right side -->
-            <rect x="500" y="170" width="80" height="55" fill="#2a4060" stroke="#3a5070" stroke-width="1" rx="2"/>
-            <rect x="505" y="175" width="70" height="10" fill="#1a3050"/>
-            <rect x="505" y="190" width="70" height="10" fill="#1a3050"/>
-            <rect x="505" y="205" width="70" height="10" fill="#1a3050"/>
-            <!-- Orange safety railing on factory roof -->
-            <rect x="218" y="57" width="368" height="5" rx="2" fill="#e87000" opacity=".7"/>
-            <!-- Overlay gradient (dark bottom) -->
-            <rect width="600" height="375" fill="url(#overlayG)" opacity=".0"/>
-          </svg>
-        </div>
-        <div style="position:absolute;bottom:0;left:0;right:0;height:55%;background:linear-gradient(transparent,rgba(7,18,42,0.5))"></div>
-        <div style="position:absolute;bottom:16px;left:18px;background:rgba(26,86,219,.7);color:#fff;font-size:13px;font-weight:700;padding:7px 16px;border-radius:8px;backdrop-filter:blur(8px)">
-          <span data-ko>에이엠스틸 사무동 · 공장동 | 경기도 안산시</span>
-          <span data-en>AMSTEEL Office &amp; Factory | Ansan, Gyeonggi-do</span>
+        <div style="position:relative;border-radius:20px;overflow:hidden;box-shadow:0 24px 80px rgba(7,18,42,.18)">
+          <img src="./images/factory.jpg" alt="에이엠스틸 전경" style="width:100%;aspect-ratio:16/10;object-fit:cover;display:block;filter:brightness(.85)">
+          <div style="position:absolute;bottom:0;left:0;right:0;height:55%;background:linear-gradient(transparent,rgba(7,18,42,0.55))"></div>
+          <div style="position:absolute;bottom:16px;left:18px;background:rgba(26,86,219,.7);color:#fff;font-size:13px;font-weight:700;padding:7px 16px;border-radius:8px;backdrop-filter:blur(8px)">
+            <span data-ko>에이엠스틸 사무동 · 공장동 | 경기도 안산시</span>
+            <span data-en>AMSTEEL Office &amp; Factory | Ansan, Gyeonggi-do</span>
+          </div>
         </div>
       </div>
       <!-- Timeline -->
@@ -790,56 +713,11 @@ body.lang-ko [data-en]{display:none!important}
   <p class="sdesc" data-en>All facilities in-house built &amp; operated — unmatched cost efficiency and optimal quality.</p>
 
   <div class="fac-grid">
-    <!-- 설비 1: Sendzimir 5미크론 압연기 (초록색 기계) -->
+    <!-- 설비 1: Sendzimir 5미크론 압연기 — 실제 사진 -->
     <div class="fcard">
       <div class="fcard-photo">
-        <div class="fcard-photo-inner" style="background:linear-gradient(160deg,#0d1a0d 0%,#1a2f1a 30%,#243824 60%,#1a2f1a 100%)">
-          <svg viewBox="0 0 480 230" width="100%" height="230" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <linearGradient id="mg1" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0%" stop-color="#2d6030"/><stop offset="100%" stop-color="#1a3a1c"/>
-              </linearGradient>
-            </defs>
-            <!-- Main machine body (Sendzimir — green) -->
-            <rect x="40" y="35" width="400" height="160" rx="12" fill="url(#mg1)" stroke="#3d7040" stroke-width="2"/>
-            <!-- Machine top structure -->
-            <rect x="60" y="20" width="360" height="22" rx="6" fill="#2a5530"/>
-            <!-- SENDZIMIR JAPAN blue banner -->
-            <rect x="130" y="8" width="220" height="22" rx="4" fill="#1565C0"/>
-            <text x="240" y="23" font-size="12" fill="white" text-anchor="middle" font-family="sans-serif" font-weight="800" letter-spacing="2.5">SENDZIMIR JAPAN</text>
-            <!-- Control panel center (white/grey) -->
-            <rect x="168" y="48" width="144" height="130" rx="6" fill="#d8dde5" stroke="#b0b8c0" stroke-width="1.5"/>
-            <!-- Red digital displays (4 rows) -->
-            <rect x="178" y="58" width="52" height="16" rx="3" fill="#111"/>
-            <rect x="242" y="58" width="52" height="16" rx="3" fill="#111"/>
-            <text x="204" y="70" font-size="9.5" fill="#ff2222" text-anchor="middle" font-family="monospace" font-weight="700">0.10</text>
-            <text x="268" y="70" font-size="9.5" fill="#ff2222" text-anchor="middle" font-family="monospace" font-weight="700">0.102</text>
-            <rect x="178" y="80" width="52" height="16" rx="3" fill="#111"/>
-            <rect x="242" y="80" width="52" height="16" rx="3" fill="#111"/>
-            <text x="204" y="92" font-size="9.5" fill="#ff3333" text-anchor="middle" font-family="monospace">0.150</text>
-            <text x="268" y="92" font-size="9.5" fill="#ff3333" text-anchor="middle" font-family="monospace">0.000</text>
-            <!-- Buttons grid -->
-            <circle cx="186" cy="120" r="6" fill="#4CAF50"/><circle cx="202" cy="120" r="6" fill="#F44336"/>
-            <circle cx="218" cy="120" r="6" fill="#FFC107"/><circle cx="234" cy="120" r="6" fill="#4CAF50"/>
-            <circle cx="250" cy="120" r="6" fill="#4CAF50"/><circle cx="266" cy="120" r="6" fill="#F44336"/>
-            <circle cx="282" cy="120" r="6" fill="#FF9800"/><circle cx="298" cy="120" r="6" fill="#4CAF50"/>
-            <!-- Toggle switches row -->
-            <rect x="180" y="138" width="28" height="12" rx="3" fill="#888"/>
-            <rect x="216" y="138" width="28" height="12" rx="3" fill="#888"/>
-            <rect x="252" y="138" width="28" height="12" rx="3" fill="#888"/>
-            <rect x="288" y="138" width="18" height="12" rx="3" fill="#888"/>
-            <!-- Side mechanical components -->
-            <circle cx="98" cy="98" r="32" fill="none" stroke="#3d7040" stroke-width="4"/>
-            <circle cx="98" cy="98" r="18" fill="none" stroke="#2d5530" stroke-width="3"/>
-            <circle cx="382" cy="98" r="32" fill="none" stroke="#3d7040" stroke-width="4"/>
-            <circle cx="382" cy="98" r="18" fill="none" stroke="#2d5530" stroke-width="3"/>
-            <!-- Roll cylinders (red ends) -->
-            <rect x="60" y="92" width="20" height="12" rx="3" fill="#c0302a"/>
-            <rect x="400" y="92" width="20" height="12" rx="3" fill="#c0302a"/>
-            <!-- Floor -->
-            <rect y="195" width="480" height="35" fill="#0f1a10"/>
-            <line x1="0" y1="195" x2="480" y2="195" stroke="#1a3020" stroke-width="1.5"/>
-          </svg>
+        <div class="fcard-photo-inner">
+          <img src="./images/sendzimir.jpg" alt="초정밀 압연기 5미크론 Sendzimir Japan" style="width:100%;height:100%;object-fit:cover;display:block">
         </div>
         <div class="fcard-overlay"></div>
       </div>
@@ -851,57 +729,11 @@ body.lang-ko [data-en]{display:none!important}
       </div>
     </div>
 
-    <!-- 설비 2: BAL + 공장 내부 (열처리 라인) -->
+    <!-- 설비 2: BAL 열처리 라인 — 실제 사진 -->
     <div class="fcard">
       <div class="fcard-photo">
-        <div class="fcard-photo-inner" style="background:linear-gradient(160deg,#0f1208 0%,#1a1c10 30%,#222418 60%,#181a10 100%)">
-          <svg viewBox="0 0 480 230" width="100%" height="230" xmlns="http://www.w3.org/2000/svg">
-            <!-- BAL Line interior — overhead crane, orange railing, coil stacks -->
-            <!-- Ceiling structure -->
-            <rect y="0" width="480" height="18" fill="#1a2010"/>
-            <!-- Overhead crane (yellow/orange) -->
-            <rect x="0" y="8" width="480" height="10" rx="3" fill="#FFA000" opacity=".85"/>
-            <rect x="20" y="18" width="16" height="30" fill="#FF8F00" opacity=".7"/>
-            <rect x="444" y="18" width="16" height="30" fill="#FF8F00" opacity=".7"/>
-            <!-- Ceiling lights -->
-            <circle cx="80" cy="6" r="7" fill="#fffff0" opacity=".9"/>
-            <circle cx="160" cy="6" r="7" fill="#fffff0" opacity=".85"/>
-            <circle cx="240" cy="6" r="7" fill="#fffff0" opacity=".9"/>
-            <circle cx="320" cy="6" r="7" fill="#fffff0" opacity=".85"/>
-            <circle cx="400" cy="6" r="7" fill="#fffff0" opacity=".9"/>
-            <!-- BAL line (long horizontal furnace) -->
-            <rect x="15" y="50" width="450" height="95" rx="8" fill="#282818" stroke="#3a3c28" stroke-width="2"/>
-            <!-- Orange railing on top of BAL -->
-            <rect x="15" y="44" width="450" height="10" rx="4" fill="#E65100" opacity=".9"/>
-            <!-- Pipes on ceiling above BAL -->
-            <rect x="80" y="22" width="14" height="32" rx="4" fill="#9a9898" opacity=".7"/>
-            <rect x="170" y="18" width="12" height="38" rx="4" fill="#9a9898" opacity=".65"/>
-            <rect x="310" y="20" width="14" height="36" rx="4" fill="#9a9898" opacity=".7"/>
-            <rect x="400" y="18" width="10" height="36" rx="4" fill="#9a9898" opacity=".6"/>
-            <!-- BAL interior glow (heat) -->
-            <rect x="20" y="54" width="440" height="84" rx="5" fill="#1a1208"/>
-            <!-- Heating elements visible through window -->
-            <rect x="100" y="65" width="280" height="28" rx="3" fill="#3a2808" stroke="#c06000" stroke-width="1"/>
-            <rect x="105" y="68" width="270" height="20" rx="2" fill="#4a3010" opacity=".8"/>
-            <!-- Light orange glow from heating -->
-            <rect x="100" y="65" width="280" height="28" rx="3" fill="rgba(255,120,0,0.08)"/>
-            <!-- Coil stacks on left -->
-            <ellipse cx="52" cy="160" rx="36" ry="14" fill="none" stroke="#5a8aaa" stroke-width="12" opacity=".85"/>
-            <ellipse cx="52" cy="153" rx="29" ry="11" fill="none" stroke="#5a8aaa" stroke-width="10" opacity=".7"/>
-            <ellipse cx="52" cy="147" rx="22" ry="8" fill="none" stroke="#5a8aaa" stroke-width="7" opacity=".55"/>
-            <ellipse cx="52" cy="143" rx="14" ry="5" fill="#0f1820" stroke="#3a6080" stroke-width="1"/>
-            <!-- Blue protective film coil -->
-            <ellipse cx="110" cy="162" rx="32" ry="12" fill="none" stroke="#1a5a9a" stroke-width="11" opacity=".9"/>
-            <ellipse cx="110" cy="156" rx="24" ry="9" fill="none" stroke="#2a6aaa" stroke-width="8" opacity=".7"/>
-            <ellipse cx="110" cy="151" rx="14" ry="5" fill="#0a1020" stroke="#1a4a80" stroke-width="1"/>
-            <!-- Orange staircase right -->
-            <rect x="400" y="140" width="70" height="8" rx="2" fill="#E65100" opacity=".9"/>
-            <rect x="412" y="148" width="58" height="8" rx="2" fill="#E65100" opacity=".8"/>
-            <rect x="424" y="156" width="46" height="8" rx="2" fill="#E65100" opacity=".7"/>
-            <rect x="436" y="164" width="34" height="8" rx="2" fill="#E65100" opacity=".6"/>
-            <!-- Floor -->
-            <rect y="195" width="480" height="35" fill="#0c0e08"/>
-          </svg>
+        <div class="fcard-photo-inner">
+          <img src="./images/bal-line.jpg" alt="광휘소둔 열처리 라인 BAL" style="width:100%;height:100%;object-fit:cover;display:block">
         </div>
         <div class="fcard-overlay"></div>
       </div>
@@ -913,51 +745,11 @@ body.lang-ko [data-en]{display:none!important}
       </div>
     </div>
 
-    <!-- 설비 3: TLL 형상교정 라인 (사진4 — 오렌지 컨트롤박스, 초록 기계) -->
+    <!-- 설비 3: TLL 형상교정 라인 — 실제 사진 -->
     <div class="fcard">
       <div class="fcard-photo">
-        <div class="fcard-photo-inner" style="background:linear-gradient(160deg,#0a1218 0%,#101c28 30%,#182030 60%,#0f1820 100%)">
-          <svg viewBox="0 0 480 230" width="100%" height="230" xmlns="http://www.w3.org/2000/svg">
-            <!-- TLL line — aerial view with orange control desk -->
-            <!-- Ceiling/overhead structure -->
-            <rect y="0" width="480" height="14" fill="#0a1218"/>
-            <rect x="0" y="5" width="480" height="8" fill="#E65100" opacity=".75"/>
-            <!-- Overhead crane (orange) far right -->
-            <rect x="420" y="0" width="60" height="230" fill="#0f1828" opacity=".4"/>
-            <text x="450" y="120" font-size="11" fill="rgba(255,140,0,0.6)" text-anchor="middle" font-family="sans-serif" transform="rotate(90,450,120)">OVERHEAD CRANE</text>
-            <!-- TLL Machine row (green Sendzimir style) -->
-            <rect x="15" y="40" width="390" height="65" rx="6" fill="#1e3820" stroke="#2a5028" stroke-width="1.5"/>
-            <!-- Roll units (circles) -->
-            <circle cx="55" cy="72" r="22" fill="none" stroke="#3a6838" stroke-width="3.5"/>
-            <circle cx="55" cy="72" r="12" fill="none" stroke="#2a5028" stroke-width="2.5"/>
-            <circle cx="130" cy="72" r="22" fill="none" stroke="#3a6838" stroke-width="3.5"/>
-            <circle cx="130" cy="72" r="12" fill="none" stroke="#2a5028" stroke-width="2.5"/>
-            <circle cx="205" cy="72" r="22" fill="none" stroke="#3a6838" stroke-width="3.5"/>
-            <circle cx="205" cy="72" r="12" fill="none" stroke="#2a5028" stroke-width="2.5"/>
-            <circle cx="280" cy="72" r="22" fill="none" stroke="#3a6838" stroke-width="3.5"/>
-            <circle cx="280" cy="72" r="12" fill="none" stroke="#2a5028" stroke-width="2.5"/>
-            <circle cx="355" cy="72" r="22" fill="none" stroke="#3a6838" stroke-width="3.5"/>
-            <circle cx="355" cy="72" r="12" fill="none" stroke="#2a5028" stroke-width="2.5"/>
-            <!-- Yellow clamps/highlights on machine -->
-            <rect x="40" y="40" width="30" height="10" fill="#FFC107" rx="2"/>
-            <rect x="115" y="40" width="30" height="10" fill="#FFC107" rx="2"/>
-            <rect x="265" y="40" width="30" height="10" fill="#FFC107" rx="2"/>
-            <rect x="340" y="40" width="30" height="10" fill="#FFC107" rx="2"/>
-            <!-- Orange control desk (center) -->
-            <rect x="168" y="118" width="120" height="78" rx="8" fill="#E65100"/>
-            <rect x="175" y="125" width="106" height="55" rx="5" fill="#c45500"/>
-            <!-- Control desk touchscreen -->
-            <rect x="195" y="130" width="66" height="42" rx="4" fill="#0a1830" stroke="#38bdf8" stroke-width="1"/>
-            <text x="228" y="155" font-size="9" fill="#38bdf8" text-anchor="middle" font-family="sans-serif" font-weight="600">TLL CONTROL</text>
-            <!-- Knobs/switches on desk -->
-            <circle cx="180" cy="145" r="5" fill="#1a3050"/>
-            <circle cx="180" cy="160" r="5" fill="#1a3050"/>
-            <circle cx="270" cy="145" r="5" fill="#1a3050"/>
-            <circle cx="270" cy="160" r="5" fill="#1a3050"/>
-            <!-- Floor yellow line -->
-            <line x1="0" y1="200" x2="480" y2="200" stroke="#FFC107" stroke-width="2" opacity=".4"/>
-            <rect y="200" width="480" height="30" fill="#080e14"/>
-          </svg>
+        <div class="fcard-photo-inner">
+          <img src="./images/tll-line.jpg" alt="형상교정 라인 TLL" style="width:100%;height:100%;object-fit:cover;display:block">
         </div>
         <div class="fcard-overlay"></div>
       </div>
@@ -969,51 +761,11 @@ body.lang-ko [data-en]{display:none!important}
       </div>
     </div>
 
-    <!-- 설비 4: 수소가스 발생기 + DGL (흰색 캐비닛) -->
+    <!-- 설비 4: 수소가스 발생기 + DGL — 실제 사진 -->
     <div class="fcard">
       <div class="fcard-photo">
-        <div class="fcard-photo-inner" style="background:linear-gradient(160deg,#0e1618 0%,#182028 30%,#1e2830 60%,#141e25 100%)">
-          <svg viewBox="0 0 480 230" width="100%" height="230" xmlns="http://www.w3.org/2000/svg">
-            <!-- H2 Gas Generator room -->
-            <!-- Ceiling pipes -->
-            <rect x="60" y="12" width="380" height="14" rx="4" fill="#7a8898" opacity=".7"/>
-            <rect x="60" y="8" width="14" height="50" rx="4" fill="#6a7888" opacity=".7"/>
-            <rect x="180" y="8" width="12" height="50" rx="4" fill="#6a7888" opacity=".65"/>
-            <rect x="400" y="8" width="12" height="50" rx="4" fill="#6a7888" opacity=".6"/>
-            <!-- Blue pipe horizontal (BAL connection) -->
-            <rect x="0" y="28" width="480" height="10" rx="3" fill="#1565C0" opacity=".45"/>
-            <!-- H2 Generator main cabinet (large white) -->
-            <rect x="205" y="35" width="195" height="158" rx="8" fill="#ccd4de" stroke="#a8b4c0" stroke-width="1.5"/>
-            <!-- 4 panel sections -->
-            <rect x="215" y="45" width="85" height="68" rx="5" fill="#b8c2cc" stroke="#98a4b0" stroke-width="1"/>
-            <rect x="308" y="45" width="82" height="68" rx="5" fill="#b8c2cc" stroke="#98a4b0" stroke-width="1"/>
-            <rect x="215" y="120" width="85" height="65" rx="5" fill="#b8c2cc" stroke="#98a4b0" stroke-width="1"/>
-            <rect x="308" y="120" width="82" height="65" rx="5" fill="#b8c2cc" stroke="#98a4b0" stroke-width="1"/>
-            <!-- H2 label on generator -->
-            <text x="258" y="85" font-size="22" fill="#1565C0" text-anchor="middle" font-family="sans-serif" font-weight="900">H₂</text>
-            <text x="258" y="103" font-size="9" fill="#3a5080" text-anchor="middle" font-family="sans-serif" font-weight="700">GAS GENERATOR</text>
-            <!-- Safety mesh fence (white wire) -->
-            <rect x="30" y="100" width="160" height="100" rx="3" fill="none" stroke="white" stroke-width="2" opacity=".6"/>
-            <!-- Vertical fence wires -->
-            <line x1="62" y1="100" x2="62" y2="200" stroke="white" stroke-width="1.5" opacity=".45"/>
-            <line x1="94" y1="100" x2="94" y2="200" stroke="white" stroke-width="1.5" opacity=".45"/>
-            <line x1="126" y1="100" x2="126" y2="200" stroke="white" stroke-width="1.5" opacity=".45"/>
-            <line x1="158" y1="100" x2="158" y2="200" stroke="white" stroke-width="1.5" opacity=".45"/>
-            <!-- Horizontal fence wires -->
-            <line x1="30" y1="130" x2="190" y2="130" stroke="white" stroke-width="1" opacity=".35"/>
-            <line x1="30" y1="160" x2="190" y2="160" stroke="white" stroke-width="1" opacity=".35"/>
-            <!-- Fence gate post -->
-            <rect x="100" y="96" width="8" height="110" fill="white" opacity=".55" rx="2"/>
-            <!-- Fire extinguishers -->
-            <rect x="40" y="145" width="18" height="40" rx="6" fill="#f44336"/>
-            <rect x="38" y="140" width="22" height="8" rx="3" fill="#c62828"/>
-            <rect x="65" y="148" width="18" height="38" rx="6" fill="#f44336"/>
-            <!-- Teal/blue pipe inside fence (BAL connection visible) -->
-            <rect x="50" y="108" width="130" height="18" rx="4" fill="#0097A7" opacity=".6"/>
-            <!-- Floor -->
-            <rect y="200" width="480" height="30" fill="#0a1218"/>
-            <line x1="0" y1="200" x2="480" y2="200" stroke="#1a2830" stroke-width="1.5"/>
-          </svg>
+        <div class="fcard-photo-inner">
+          <img src="./images/h2-gen.jpg" alt="수소가스 발생기 및 탈지 라인" style="width:100%;height:100%;object-fit:cover;display:block">
         </div>
         <div class="fcard-overlay"></div>
       </div>
